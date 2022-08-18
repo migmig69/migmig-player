@@ -1,5 +1,13 @@
+import { PlayerProvider, PlayGround } from "./Components";
+
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div>
+      <PlayerProvider>
+        <PlayGround />
+      </PlayerProvider>
+    </div>
+  );
 }
 
 export default App;
